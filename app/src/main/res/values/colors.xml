@@ -8,31 +8,32 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">#FF9800</color>
-    <color name="colorPrimaryDark">#212121</color>
-    <color name="colorAccent">#00BAF2</color>
-    <color name="placeholder_bg">#dddddd</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#42A5F5</color>
+    <color name="placeholder_bg">#90CAF9</color>
 
-    <color name="background">#121212</color>
-    <color name="colorLine">#333333</color>
+    <color name="background">#0D47A1</color>
+    <color name="colorLine">#1976D2</color>
 
-    <color name="skyBlue">#AFD5EC</color>
-    <color name="yellow">#F4F50A</color>
+    <color name="skyBlue">#BBDEFB</color>
+    <color name="yellow">#FDD835</color>
 
-    <color name="md_theme_dark_primary">#D0BCFF</color>
+    <color name="md_theme_dark_primary">#5C6BC0</color>
 
-    <color name="bottomNavigationTextColor">#B2B2B2</color>
-    <color name="bottomNavigationTintColor">#B2B2B2</color>
-    <color name="bottomNavigationSelectedColor">#FC4926</color>
-    <color name="statusBarColor">#000</color>
-    <color name="whiteBodyColor">#FCFCFC</color>
-    <color name="darkTextColor">#020000</color>
-    <color name="primaryTextColor">#25C0DE</color>
-    <color name="whiteTextColor">#fff</color>
-    <color name="frutorial_title">#4c4c4c</color>
+    <color name="bottomNavigationTextColor">#64B5F6</color>
+    <color name="bottomNavigationTintColor">#2196F3</color>
+    <color name="bottomNavigationSelectedColor">#0D47A1</color>
+    <color name="statusBarColor">#003C8F</color>
+    <color name="whiteBodyColor">#E3F2FD</color>
+    <color name="darkTextColor">#1A237E</color>
+    <color name="primaryTextColor">#0288D1</color>
+    <color name="whiteTextColor">#FFFFFF</color>
+    <color name="frutorial_title">#546E7A</color>
 
     <!--colors for light mode-->
-    <color name="contentBodyColor">#D0BCFF</color>
-    <color name="contentTextColor">#FC4926</color>
-    <color name="bottomNavigationBackground">#F7F7F7</color>
+    <color name="contentBodyColor">#64B5F6</color>
+    <color name="contentTextColor">#1E88E5</color>
+    <color name="bottomNavigationBackground">#E3F2FD</color>
+
 </resources>

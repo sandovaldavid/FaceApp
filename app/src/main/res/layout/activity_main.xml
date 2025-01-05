@@ -58,14 +58,14 @@
                         android:layout_marginLeft="50dp">
 
                         <TextView
-                            android:text="Enroll Faces"
+                            android:text="Registrar Rostros"
                             style="@style/viewParent.headerText"
                             android:textColor="@color/primaryTextColor" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Registering user face data"
+                            android:text="Registrar datos de rostros de usuario"
                             android:textStyle="bold"
                             android:textSize="14sp"/>
 
@@ -107,14 +107,14 @@
                         android:layout_marginLeft="50dp">
 
                         <TextView
-                            android:text="Verify Faces"
+                            android:text="Verificar Rostros"
                             style="@style/viewParent.headerText"
                             android:textColor="@color/primaryTextColor" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Matching Face Algorithm (1:1, 1:N)"
+                            android:text="Algoritmo de coincidencia de rostros"
                             android:textStyle="bold"
                             android:textSize="14sp"/>
 
@@ -126,104 +126,6 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:src="@drawable/verify_face"
-                    android:layout_centerVertical="true"
-                    android:elevation="13dp"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/button_liveness"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="2dp"
-                    android:minHeight="100dp"
-                    app:cardBackgroundColor="@color/whiteBodyColor"
-                    app:cardElevation="2dp"
-                    app:cardCornerRadius="16dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp">
-
-                        <TextView
-                            android:text="Liveness"
-                            style="@style/viewParent.headerText"
-                            android:textColor="@color/primaryTextColor" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Anti-spoofing Face Liveness Test"
-                            android:textStyle="bold"
-                            android:textSize="14sp"/>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:src="@drawable/liveness_test"
-                    android:layout_centerVertical="true"
-                    android:elevation="13dp"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/button_about"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="2dp"
-                    android:minHeight="100dp"
-                    app:cardBackgroundColor="@color/whiteBodyColor"
-                    app:cardElevation="2dp"
-                    app:cardCornerRadius="16dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp">
-
-                        <TextView
-                            android:text="About US"
-                            style="@style/viewParent.headerText"
-                            android:textColor="@color/primaryTextColor" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Learn more about MiniAiLive Ltd"
-                            android:textStyle="bold"
-                            android:textSize="14sp"/>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:src="@drawable/about_us"
                     android:layout_centerVertical="true"
                     android:elevation="13dp"/>
 

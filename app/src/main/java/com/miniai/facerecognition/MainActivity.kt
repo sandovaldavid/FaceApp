@@ -49,18 +49,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
-            findViewById<CardView>(R.id.button_liveness).setOnClickListener { // Handle the card view click here
-                val intent = Intent(this, LivenessTestActivity::class.java)
-                startActivity(intent)
-            }
         }
-
-        findViewById<CardView>(R.id.button_about).setOnClickListener { // Handle the card view click here
-            startActivity(Intent(this, AboutActivity::class.java))
-        }
-//        findViewById<Button>(R.id.button_about).setOnClickListener {
-//            startActivity(Intent(this, AboutActivity::class.java))
-//        }
     }
 
     private fun showAlertDialog(message: String) {

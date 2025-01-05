@@ -42,15 +42,7 @@
             android:name=".ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".LivenessTestActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AboutActivity"
-            android:exported="false" />
-        <activity android:name=".LearnMoreActivity"
             android:exported="false" />
     </application>
 

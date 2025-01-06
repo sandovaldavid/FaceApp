@@ -13,7 +13,7 @@
     <string name="init_error">¡Error de inicialización!</string>
     <string name="ok">Aceptar</string>
     <string name="cancel">Cancelar</string>
-    <string name="name_userlist">Usuarios registrados</string>
+    <string name="name_userlist">Usuarios registrados</string>a
     <string name="register_successed">¡Registro exitoso!</string>
     <string name="delete_user">Eliminar usuario</string>
     <string name="delete">Eliminar</string>

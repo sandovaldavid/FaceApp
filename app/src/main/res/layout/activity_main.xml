@@ -16,22 +16,13 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                android:adjustViewBounds="true"
-                android:cropToPadding="true"
-                android:src="@drawable/company_name" />
-
-            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:adjustViewBounds="true"
                 android:cropToPadding="true"
-                android:src="@drawable/service2" />
+                android:src="@drawable/splashlogo" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
